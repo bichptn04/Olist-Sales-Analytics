@@ -10,6 +10,7 @@ By combining SQL-based data modeling, Python-driven customer segmentation, and P
 It is a public dataset and it has information of about 100 thousand orders from 2016 to 2018 You can find it in Kaggle [Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ![Schema](./Visualizations/Dataset Schema.png)
+
 ## Data Pipeline
 Raw CSV Files → Staging Tables → Data Warehouse (Star Schema) → Power BI Dashboard
 - Load raw data into staging tables
@@ -25,6 +26,7 @@ Sales Overview: Displays key metrics such as total revenue, orders, customers, a
 Customer Analysis: Highlights customer metrics including retention, average order value (AOV), and segmentation based on RFM to identify high-value and at-risk customers.
 
 ![Overview](./Visualizations/Sales Performance Dashboard-Overview.jpg)
+
 ![Customer](./Visualizations/Sales Performance Dashboard-Customer.jpg
 
 ## Customer Segmentation (Python)
