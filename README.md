@@ -27,7 +27,7 @@ Raw CSV Files → Staging Tables → Data Warehouse (Star Schema) → Power BI D
 
 ## Star Schema (SQL)
 
-![Star Schema](./Visualizations/Star%20Schema.jbg)
+![Star Schema](./Visualizations/Star%20Schema.jpg)
 This structure improves query performance and simplifies analytical reporting.
 ## Dashboard (Power BI)
 The Power BI dashboard provides an interactive overview of sales performance and customer behavior.
@@ -43,6 +43,7 @@ Python was used to perform advanced customer segmentation by combining RFM analy
 K-Means clustering was then applied to group customers into distinct segments based on their purchasing behavior. The optimal number of clusters was determined using Elbow Method. Each cluster represents a specific customer profile, such as low value, high-value, loyal, and churned customers.
 
 ![Customer Distribution by Cluster](./Visualizations/Customer%20Distribution%20by%20Cluster.png)
+
 This approach provides a more data-driven and scalable segmentation compared to rule-based methods, enabling deeper insights into customer distribution and supporting targeted marketing strategies to improve retention and maximize revenue.
 ## Key Insights
 There is no significant recurring drop or spike across the same months in different years, suggesting that seasonality impact is limited.
